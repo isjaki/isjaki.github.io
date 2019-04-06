@@ -48,8 +48,8 @@ header .icon {
 
 hr {
     margin: 0;
-    height: 2px;
-    background-color: #000000;
+    height: 1px;
+    background-color: #dddbdb;
 }
 
 nav ul {

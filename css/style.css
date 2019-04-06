@@ -136,6 +136,10 @@ footer article {
     border: 2px solid #000000;
 }
 
+.footer-advantage p {
+    font-size: 0.95em;
+}
+
 .footer-logo {
     position: absolute;
     width: 48px;
@@ -158,6 +162,16 @@ footer article {
     border: none;
     border-radius: 0;
     outline: none;
+}
+
+footer .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+footer .dropdown-menu.dropup {
+    top: auto;
+    bottom: 32px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -184,6 +198,10 @@ footer article {
         margin-left: 0;
     }
 
+    .footer-advantage {
+        width: 45%;
+    }
+
     .text-large {
         font-size: 1.3em;
     }
@@ -193,9 +211,43 @@ footer article {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .header-block {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .block-divider::before {
+        display: none;
+    }
+
+    main article {
+        line-height: 2;
+    }
+
+    nav .nav-button {
+        margin: 5px;
+    }
+
+    .list-inline {
+        text-align: center;
+    }
+
+    nav .social-icons {
+        margin: 0;
+        padding: 5px;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .footer-advantage {
         width: 90%;
         margin: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    nav .nav-button {
+        margin: 5px;
     }
 }

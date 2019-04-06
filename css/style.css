@@ -28,7 +28,9 @@ header span {
 header .icon {
     position: absolute;
     top: 50%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
     left: 0;
 }
 
@@ -145,7 +147,9 @@ footer article {
     width: 48px;
     height: 40px;
     top: 50%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
     left: 10px;
     text-align: center;
 }

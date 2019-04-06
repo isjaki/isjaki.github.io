@@ -112,10 +112,63 @@ main article {
     margin: 40px auto 20px;
 }
 
-.button.close {
+button.close {
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+footer {
+    padding: 40px 0;
+}
+
+footer article {
+    line-height: 2;
+    font-size: 0.95em;
+}
+
+.footer-advantage {
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    margin: 20px 10px;
+    padding: 10px 30px 10px 70px;
+    border: 2px solid #000000;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 48px;
+    height: 40px;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 10px;
+    text-align: center;
+}
+
+.fa-calendar-check {
+    font-size: 40px;
+    color: #12c512;
+}
+
+.footer-advantage button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+
+@media screen and (max-width: 1200px) {
+    nav .social-icons {
+        margin: 0;
+        padding: 5px 0 0 0;
+    }
+
+    .footer-advantage {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -137,5 +190,12 @@ main article {
 
     .text-medium {
         font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-advantage {
+        width: 90%;
+        margin: 20px 20px;
     }
 }
